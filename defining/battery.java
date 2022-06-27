@@ -4,6 +4,15 @@ public class battery {
 String model;
 int hoursidle;
 int hourstalk;
+
+
+
+public battery(String model, int hoursidle, int hourstalk) {
+	super();
+	this.model = model;
+	this.hoursidle = hoursidle;
+	this.hourstalk = hourstalk;
+}
 public String getModel() {
 	return model;
 }

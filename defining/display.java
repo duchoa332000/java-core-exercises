@@ -4,6 +4,12 @@ public class display {
 int side;
 int numberofcolors;
 
+public display(int side, int numberofcolors) {
+	super();
+	this.side = side;
+	this.numberofcolors = numberofcolors;
+}
+
 
 public int getSide() {
 	return side;
